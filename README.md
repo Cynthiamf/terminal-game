@@ -16,7 +16,7 @@ npm install
 ## Run tests
 
 ```sh
-npm run test
+npx @cynthiamf/trivioul
 ```
 
 ## Author
