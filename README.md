@@ -3,7 +3,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-> Sorte de Trivial Poursuit
+> Sort of Trivial Poursuit
 
 ### 🏠 [Homepage](https://github.com/Cynthiamf/terminal-game#readme)
 
