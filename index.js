@@ -10,11 +10,11 @@ const chalkRainbow = require('chalk-rainbow')
 'use strict';
 
 const newLine = '\n';
-let cptHistoire = 3;
-let cptGeographie = 3;
-let cptLitterature = 3;
-let cptSport = 3;
-let cptDivertissement = 3;
+let cptHistoire = 0;
+let cptGeographie = 0;
+let cptLitterature = 0;
+let cptSport = 0;
+let cptDivertissement = 0;
 let cptSciences = 0;
 
 
@@ -24,7 +24,7 @@ function main() {
 }
 
 function victoire() {
-    console.log(chalkRainbow.bold('Bravo, vous avez récupérer tous les camouberts !'));
+    console.log(chalk.bold(chalkRainbow('Bravo, vous avez récupérer tous les camouberts !')));
 }
 
 var themePrompt = {
@@ -447,7 +447,7 @@ function goQuestion() {
                         }
                         if (cptLitterature >= 3) {
                             newLine;
-                            console.log(chalk.hex('#B45F04').bold('Bravo ! Vous avez récupéré le camoubert BRUN !'))
+                            console.log(chalk.hex('#61380B').bold('Bravo ! Vous avez récupéré le camoubert BRUN !'))
                             newLine;
                             if (cptHistoire >= 3 && cptGeographie >= 3 && cptLitterature >= 3 && cptSport >= 3 && cptDivertissement >= 3 && cptSciences >= 3) {
                                 victoire();
@@ -457,7 +457,7 @@ function goQuestion() {
                         } else {
                             newLine;
                             cptLitterature = 0;
-                            console.log('Désolé, vous n\'avez pas récupéré le ' + chalk.hex('#B45F04').bold('camoubert brun') + '. Vous pourrez réessayer plus tard.')
+                            console.log('Désolé, vous n\'avez pas récupéré le ' + chalk.hex('#61380B').bold('camoubert brun') + '. Vous pourrez réessayer plus tard.')
                             newLine;
                             goQuestion()
                         }
