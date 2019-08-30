@@ -16,8 +16,7 @@ let cptLitterature = 3;
 let cptSport = 3;
 let cptDivertissement = 3;
 let cptSciences = 0;
-let theme = '';
-let camoubert = [];
+
 
 function main() {
     console.log('Bienvenue à Trivioul Poursuit !!! Le but est de répondre correctement à 3 questions pour récupérer ce fameux CAMOUBERT :D Êtes-vous prêt(e)?');
