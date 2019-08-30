@@ -13,10 +13,16 @@
 npm install
 ```
 
+## Usage
+
+```sh
+npx cynthiamf
+```
+
 ## Run tests
 
 ```sh
-npx @cynthiamf/trivioul
+npm run test
 ```
 
 ## Author
