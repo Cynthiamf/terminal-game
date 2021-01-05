@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Cynthiamf/terminal-game#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "boxen": "^4.1.0",
     "chalk": "^2.4.2",
     "chalk-rainbow": "^1.0.0",
